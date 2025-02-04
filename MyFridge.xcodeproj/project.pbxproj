@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B72BFC642D2AEA5E00F3FDB0 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72BFC622D2AEA5E00F3FDB0 /* StatisticsView.swift */; };
+		B72BFC662D2AFFDA00F3FDB0 /* Int+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72BFC652D2AFFDA00F3FDB0 /* Int+Ext.swift */; };
+		B745C4C52D0EFD1F005D9E31 /* MyFridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C4C22D0EFD1F005D9E31 /* MyFridgeApp.swift */; };
+		B745C4C72D0EFD1F005D9E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B745C4BF2D0EFD1F005D9E31 /* Assets.xcassets */; };
+		B745C4D62D0EFD51005D9E31 /* Navigation+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C4D12D0EFD51005D9E31 /* Navigation+Ext.swift */; };
+		B745C4D72D0EFD51005D9E31 /* Internal+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C4D02D0EFD51005D9E31 /* Internal+Ext.swift */; };
+		B745C4D82D0EFD51005D9E31 /* Text+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C4D32D0EFD51005D9E31 /* Text+Ext.swift */; };
+		B745C4D92D0EFD51005D9E31 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C4D42D0EFD51005D9E31 /* View+Ext.swift */; };
+		B745C4DA2D0EFD51005D9E31 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C4CF2D0EFD51005D9E31 /* Date+Ext.swift */; };
+		B745C4DB2D0EFD51005D9E31 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C4CE2D0EFD51005D9E31 /* Color+Ext.swift */; };
+		B745C4DC2D0EFD51005D9E31 /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C4CD2D0EFD51005D9E31 /* Bundle+Ext.swift */; };
+		B745C4DD2D0EFD51005D9E31 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C4D22D0EFD51005D9E31 /* String+Ext.swift */; };
+		B745C4E12D0EFD56005D9E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C4DE2D0EFD56005D9E31 /* AppDelegate.swift */; };
+		B745C4EB2D0EFD9B005D9E31 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C4E92D0EFD9B005D9E31 /* Logger.swift */; };
+		B745C4EE2D0EFD9F005D9E31 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C4EC2D0EFD9F005D9E31 /* HapticManager.swift */; };
+		B745C4F22D0EFE01005D9E31 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C4F02D0EFE01005D9E31 /* HomeView.swift */; };
+		B745C4F72D0EFE37005D9E31 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B745C4F62D0EFE37005D9E31 /* RealmSwift */; };
+		B745C4FA2D0EFEA4005D9E31 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = B745C4F92D0EFEA4005D9E31 /* CodeScanner */; };
+		B745C5002D0EFEBD005D9E31 /* AppNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C4FE2D0EFEBD005D9E31 /* AppNavigationView.swift */; };
+		B745C5032D0EFF76005D9E31 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = B745C4F62D0EFE37005D9E31 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		B745C5082D0F04FC005D9E31 /* FridgeItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C5072D0F04FC005D9E31 /* FridgeItemDetailView.swift */; };
+		B745C5102D0F0676005D9E31 /* LocalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C50E2D0F0676005D9E31 /* LocalManager.swift */; };
+		B745C5122D0F0687005D9E31 /* FridgeItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745C5112D0F0687005D9E31 /* FridgeItemModel.swift */; };
+		B7741FF12D12FCA500E58195 /* SimulatorQRStringProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741FEF2D12FCA500E58195 /* SimulatorQRStringProvider.swift */; };
+		B7741FF72D1303E200E58195 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741FF52D1303E200E58195 /* NotificationManager.swift */; };
+		B7741FFD2D130AD200E58195 /* ShoppingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741FFB2D130AD200E58195 /* ShoppingListView.swift */; };
+		B7741FFF2D130B1D00E58195 /* Array+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7741FFE2D130B1D00E58195 /* Array+Ext.swift */; };
+		B7A1FD842D2C1930008BE82D /* StatisticsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A1FD832D2C1930008BE82D /* StatisticsModel.swift */; };
+		B7CB6B512D2E9B9400750AE5 /* QRParsingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CB6B502D2E9B9400750AE5 /* QRParsingError.swift */; };
+		B7CB6B532D2EA84700750AE5 /* FridgeItemModel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CB6B522D2EA84700750AE5 /* FridgeItemModel+Ext.swift */; };
+		B7CB6B552D2EA8FA00750AE5 /* FridgeItemModelCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CB6B542D2EA8FA00750AE5 /* FridgeItemModelCreator.swift */; };
+		B7CB6B572D2EB3A300750AE5 /* StatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CB6B562D2EB3A300750AE5 /* StatisticsViewModel.swift */; };
+		B7CF164A2D17179900A8377B /* MarkdownText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF16492D17179900A8377B /* MarkdownText.swift */; };
+		B7E48B2F2D1B3B71006420AA /* QRScanningType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E48B2D2D1B3B71006420AA /* QRScanningType.swift */; };
+		B7E48B312D1B3DBF006420AA /* QRScanningHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E48B302D1B3DBF006420AA /* QRScanningHandler.swift */; };
+		B7EA8D4E2D29702B0034E9FB /* ShoppingLocalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EA8D4C2D29702B0034E9FB /* ShoppingLocalManager.swift */; };
+		B7EA8D502D2970530034E9FB /* ShoppingListItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EA8D4F2D2970530034E9FB /* ShoppingListItemModel.swift */; };
+		B7EA8D522D29739C0034E9FB /* Realm+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EA8D512D29739C0034E9FB /* Realm+Ext.swift */; };
+		B7EA8D5A2D2984E80034E9FB /* ToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EA8D592D2984E80034E9FB /* ToolbarButton.swift */; };
+		B7EF20092D0F3EB700788927 /* QRParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EF20072D0F3EB700788927 /* QRParser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B745C5022D0EFF73005D9E31 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B745C5032D0EFF76005D9E31 /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B72BFC622D2AEA5E00F3FDB0 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		B72BFC652D2AFFDA00F3FDB0 /* Int+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Ext.swift"; sourceTree = "<group>"; };
+		B745C4AB2D0EFCF9005D9E31 /* MyFridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B745C4BF2D0EFD1F005D9E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B745C4C22D0EFD1F005D9E31 /* MyFridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFridgeApp.swift; sourceTree = "<group>"; };
+		B745C4CD2D0EFD51005D9E31 /* Bundle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Ext.swift"; sourceTree = "<group>"; };
+		B745C4CE2D0EFD51005D9E31 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		B745C4CF2D0EFD51005D9E31 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		B745C4D02D0EFD51005D9E31 /* Internal+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Internal+Ext.swift"; sourceTree = "<group>"; };
+		B745C4D12D0EFD51005D9E31 /* Navigation+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Navigation+Ext.swift"; sourceTree = "<group>"; };
+		B745C4D22D0EFD51005D9E31 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		B745C4D32D0EFD51005D9E31 /* Text+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Ext.swift"; sourceTree = "<group>"; };
+		B745C4D42D0EFD51005D9E31 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		B745C4DE2D0EFD56005D9E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B745C4E92D0EFD9B005D9E31 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		B745C4EC2D0EFD9F005D9E31 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		B745C4F02D0EFE01005D9E31 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B745C4FE2D0EFEBD005D9E31 /* AppNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationView.swift; sourceTree = "<group>"; };
+		B745C5072D0F04FC005D9E31 /* FridgeItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeItemDetailView.swift; sourceTree = "<group>"; };
+		B745C50E2D0F0676005D9E31 /* LocalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalManager.swift; sourceTree = "<group>"; };
+		B745C5112D0F0687005D9E31 /* FridgeItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeItemModel.swift; sourceTree = "<group>"; };
+		B7741FEF2D12FCA500E58195 /* SimulatorQRStringProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorQRStringProvider.swift; sourceTree = "<group>"; };
+		B7741FF52D1303E200E58195 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		B7741FFB2D130AD200E58195 /* ShoppingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListView.swift; sourceTree = "<group>"; };
+		B7741FFE2D130B1D00E58195 /* Array+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Ext.swift"; sourceTree = "<group>"; };
+		B7A1FD832D2C1930008BE82D /* StatisticsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsModel.swift; sourceTree = "<group>"; };
+		B7CB6B502D2E9B9400750AE5 /* QRParsingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRParsingError.swift; sourceTree = "<group>"; };
+		B7CB6B522D2EA84700750AE5 /* FridgeItemModel+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FridgeItemModel+Ext.swift"; sourceTree = "<group>"; };
+		B7CB6B542D2EA8FA00750AE5 /* FridgeItemModelCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeItemModelCreator.swift; sourceTree = "<group>"; };
+		B7CB6B562D2EB3A300750AE5 /* StatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewModel.swift; sourceTree = "<group>"; };
+		B7CF16492D17179900A8377B /* MarkdownText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownText.swift; sourceTree = "<group>"; };
+		B7E48B2D2D1B3B71006420AA /* QRScanningType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanningType.swift; sourceTree = "<group>"; };
+		B7E48B302D1B3DBF006420AA /* QRScanningHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanningHandler.swift; sourceTree = "<group>"; };
+		B7EA8D4C2D29702B0034E9FB /* ShoppingLocalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingLocalManager.swift; sourceTree = "<group>"; };
+		B7EA8D4F2D2970530034E9FB /* ShoppingListItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListItemModel.swift; sourceTree = "<group>"; };
+		B7EA8D512D29739C0034E9FB /* Realm+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Realm+Ext.swift"; sourceTree = "<group>"; };
+		B7EA8D592D2984E80034E9FB /* ToolbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarButton.swift; sourceTree = "<group>"; };
+		B7EF20072D0F3EB700788927 /* QRParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRParser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B745C4A82D0EFCF9005D9E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B745C4F72D0EFE37005D9E31 /* RealmSwift in Frameworks */,
+				B745C4FA2D0EFEA4005D9E31 /* CodeScanner in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B72BFC632D2AEA5E00F3FDB0 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				B72BFC622D2AEA5E00F3FDB0 /* StatisticsView.swift */,
+				B7CB6B562D2EB3A300750AE5 /* StatisticsViewModel.swift */,
+				B7A1FD832D2C1930008BE82D /* StatisticsModel.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		B745C4A22D0EFCF9005D9E31 = {
+			isa = PBXGroup;
+			children = (
+				B745C4C32D0EFD1F005D9E31 /* MyFridge */,
+				B745C4AC2D0EFCF9005D9E31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B745C4AC2D0EFCF9005D9E31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B745C4AB2D0EFCF9005D9E31 /* MyFridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B745C4BE2D0EFD1F005D9E31 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B745C4C02D0EFD1F005D9E31 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B745C4BE2D0EFD1F005D9E31 /* Preview Content */,
+				B745C4BF2D0EFD1F005D9E31 /* Assets.xcassets */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B745C4C32D0EFD1F005D9E31 /* MyFridge */ = {
+			isa = PBXGroup;
+			children = (
+				B745C4E02D0EFD56005D9E31 /* App */,
+				B745C4C02D0EFD1F005D9E31 /* Common */,
+				B745C4E82D0EFD99005D9E31 /* Service */,
+				B745C4D52D0EFD51005D9E31 /* Extension */,
+				B745C4E52D0EFD73005D9E31 /* Presentation */,
+			);
+			path = MyFridge;
+			sourceTree = "<group>";
+		};
+		B745C4D52D0EFD51005D9E31 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B745C4CD2D0EFD51005D9E31 /* Bundle+Ext.swift */,
+				B745C4CE2D0EFD51005D9E31 /* Color+Ext.swift */,
+				B745C4CF2D0EFD51005D9E31 /* Date+Ext.swift */,
+				B745C4D02D0EFD51005D9E31 /* Internal+Ext.swift */,
+				B745C4D12D0EFD51005D9E31 /* Navigation+Ext.swift */,
+				B745C4D22D0EFD51005D9E31 /* String+Ext.swift */,
+				B745C4D32D0EFD51005D9E31 /* Text+Ext.swift */,
+				B745C4D42D0EFD51005D9E31 /* View+Ext.swift */,
+				B7741FFE2D130B1D00E58195 /* Array+Ext.swift */,
+				B7EA8D512D29739C0034E9FB /* Realm+Ext.swift */,
+				B72BFC652D2AFFDA00F3FDB0 /* Int+Ext.swift */,
+				B7CB6B522D2EA84700750AE5 /* FridgeItemModel+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B745C4E02D0EFD56005D9E31 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B745C4C22D0EFD1F005D9E31 /* MyFridgeApp.swift */,
+				B745C4DE2D0EFD56005D9E31 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B745C4E52D0EFD73005D9E31 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF16482D17179000A8377B /* Components */,
+				B7CF16472D17178600A8377B /* Modules */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B745C4E82D0EFD99005D9E31 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B7E48B2E2D1B3B71006420AA /* QRScanning */,
+				B7741FF62D1303E200E58195 /* Notification */,
+				B7741FF02D12FCA500E58195 /* SimulatorQRStringProvider */,
+				B7EF20082D0F3EB700788927 /* QRParser */,
+				B745C50F2D0F0676005D9E31 /* Local */,
+				B745C4EA2D0EFD9B005D9E31 /* Log */,
+				B745C4ED2D0EFD9F005D9E31 /* Haptic */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B745C4EA2D0EFD9B005D9E31 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				B745C4E92D0EFD9B005D9E31 /* Logger.swift */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		B745C4ED2D0EFD9F005D9E31 /* Haptic */ = {
+			isa = PBXGroup;
+			children = (
+				B745C4EC2D0EFD9F005D9E31 /* HapticManager.swift */,
+			);
+			path = Haptic;
+			sourceTree = "<group>";
+		};
+		B745C4F12D0EFE01005D9E31 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B745C4F02D0EFE01005D9E31 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B745C4FF2D0EFEBD005D9E31 /* AppNavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				B745C4FE2D0EFEBD005D9E31 /* AppNavigationView.swift */,
+			);
+			path = AppNavigationView;
+			sourceTree = "<group>";
+		};
+		B745C5062D0F04EF005D9E31 /* FridgeItemDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B745C5072D0F04FC005D9E31 /* FridgeItemDetailView.swift */,
+			);
+			path = FridgeItemDetail;
+			sourceTree = "<group>";
+		};
+		B745C50F2D0F0676005D9E31 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				B7EA8D4D2D29702B0034E9FB /* ShoppingList */,
+				B7EA8D472D2970050034E9FB /* Fridge */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		B7741FF02D12FCA500E58195 /* SimulatorQRStringProvider */ = {
+			isa = PBXGroup;
+			children = (
+				B7741FEF2D12FCA500E58195 /* SimulatorQRStringProvider.swift */,
+			);
+			path = SimulatorQRStringProvider;
+			sourceTree = "<group>";
+		};
+		B7741FF62D1303E200E58195 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				B7741FF52D1303E200E58195 /* NotificationManager.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		B7741FFC2D130AD200E58195 /* ShoppingList */ = {
+			isa = PBXGroup;
+			children = (
+				B7741FFB2D130AD200E58195 /* ShoppingListView.swift */,
+			);
+			path = ShoppingList;
+			sourceTree = "<group>";
+		};
+		B7CF16472D17178600A8377B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B745C4FF2D0EFEBD005D9E31 /* AppNavigationView */,
+				B745C4F12D0EFE01005D9E31 /* Home */,
+				B72BFC632D2AEA5E00F3FDB0 /* Statistics */,
+				B745C5062D0F04EF005D9E31 /* FridgeItemDetail */,
+				B7741FFC2D130AD200E58195 /* ShoppingList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B7CF16482D17179000A8377B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF16492D17179900A8377B /* MarkdownText.swift */,
+				B7EA8D592D2984E80034E9FB /* ToolbarButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B7E48B2E2D1B3B71006420AA /* QRScanning */ = {
+			isa = PBXGroup;
+			children = (
+				B7E48B2D2D1B3B71006420AA /* QRScanningType.swift */,
+				B7E48B302D1B3DBF006420AA /* QRScanningHandler.swift */,
+			);
+			path = QRScanning;
+			sourceTree = "<group>";
+		};
+		B7EA8D472D2970050034E9FB /* Fridge */ = {
+			isa = PBXGroup;
+			children = (
+				B745C50E2D0F0676005D9E31 /* LocalManager.swift */,
+				B745C5112D0F0687005D9E31 /* FridgeItemModel.swift */,
+				B7CB6B542D2EA8FA00750AE5 /* FridgeItemModelCreator.swift */,
+			);
+			path = Fridge;
+			sourceTree = "<group>";
+		};
+		B7EA8D4D2D29702B0034E9FB /* ShoppingList */ = {
+			isa = PBXGroup;
+			children = (
+				B7EA8D4C2D29702B0034E9FB /* ShoppingLocalManager.swift */,
+				B7EA8D4F2D2970530034E9FB /* ShoppingListItemModel.swift */,
+			);
+			path = ShoppingList;
+			sourceTree = "<group>";
+		};
+		B7EF20082D0F3EB700788927 /* QRParser */ = {
+			isa = PBXGroup;
+			children = (
+				B7CB6B502D2E9B9400750AE5 /* QRParsingError.swift */,
+				B7EF20072D0F3EB700788927 /* QRParser.swift */,
+			);
+			path = QRParser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B745C4AA2D0EFCF9005D9E31 /* MyFridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B745C4B92D0EFCFD005D9E31 /* Build configuration list for PBXNativeTarget "MyFridge" */;
+			buildPhases = (
+				B745C4A72D0EFCF9005D9E31 /* Sources */,
+				B745C4A82D0EFCF9005D9E31 /* Frameworks */,
+				B745C4A92D0EFCF9005D9E31 /* Resources */,
+				B745C5022D0EFF73005D9E31 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFridge;
+			packageProductDependencies = (
+				B745C4F62D0EFE37005D9E31 /* RealmSwift */,
+				B745C4F92D0EFEA4005D9E31 /* CodeScanner */,
+			);
+			productName = MyFridge;
+			productReference = B745C4AB2D0EFCF9005D9E31 /* MyFridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B745C4A32D0EFCF9005D9E31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					B745C4AA2D0EFCF9005D9E31 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = B745C4A62D0EFCF9005D9E31 /* Build configuration list for PBXProject "MyFridge" */;
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ru,
+			);
+			mainGroup = B745C4A22D0EFCF9005D9E31;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B745C4F32D0EFE37005D9E31 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				B745C4F82D0EFEA4005D9E31 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B745C4AC2D0EFCF9005D9E31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B745C4AA2D0EFCF9005D9E31 /* MyFridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B745C4A92D0EFCF9005D9E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B745C4C72D0EFD1F005D9E31 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B745C4A72D0EFCF9005D9E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B745C4EE2D0EFD9F005D9E31 /* HapticManager.swift in Sources */,
+				B72BFC642D2AEA5E00F3FDB0 /* StatisticsView.swift in Sources */,
+				B745C4D62D0EFD51005D9E31 /* Navigation+Ext.swift in Sources */,
+				B7741FF72D1303E200E58195 /* NotificationManager.swift in Sources */,
+				B745C5002D0EFEBD005D9E31 /* AppNavigationView.swift in Sources */,
+				B7CB6B512D2E9B9400750AE5 /* QRParsingError.swift in Sources */,
+				B745C5102D0F0676005D9E31 /* LocalManager.swift in Sources */,
+				B745C4F22D0EFE01005D9E31 /* HomeView.swift in Sources */,
+				B7741FF12D12FCA500E58195 /* SimulatorQRStringProvider.swift in Sources */,
+				B745C4D72D0EFD51005D9E31 /* Internal+Ext.swift in Sources */,
+				B745C4E12D0EFD56005D9E31 /* AppDelegate.swift in Sources */,
+				B7741FFD2D130AD200E58195 /* ShoppingListView.swift in Sources */,
+				B745C5082D0F04FC005D9E31 /* FridgeItemDetailView.swift in Sources */,
+				B7CB6B532D2EA84700750AE5 /* FridgeItemModel+Ext.swift in Sources */,
+				B7A1FD842D2C1930008BE82D /* StatisticsModel.swift in Sources */,
+				B745C4D82D0EFD51005D9E31 /* Text+Ext.swift in Sources */,
+				B745C4D92D0EFD51005D9E31 /* View+Ext.swift in Sources */,
+				B7EA8D4E2D29702B0034E9FB /* ShoppingLocalManager.swift in Sources */,
+				B7E48B2F2D1B3B71006420AA /* QRScanningType.swift in Sources */,
+				B745C4DA2D0EFD51005D9E31 /* Date+Ext.swift in Sources */,
+				B745C5122D0F0687005D9E31 /* FridgeItemModel.swift in Sources */,
+				B745C4EB2D0EFD9B005D9E31 /* Logger.swift in Sources */,
+				B7CB6B552D2EA8FA00750AE5 /* FridgeItemModelCreator.swift in Sources */,
+				B7EF20092D0F3EB700788927 /* QRParser.swift in Sources */,
+				B7CF164A2D17179900A8377B /* MarkdownText.swift in Sources */,
+				B7741FFF2D130B1D00E58195 /* Array+Ext.swift in Sources */,
+				B745C4DB2D0EFD51005D9E31 /* Color+Ext.swift in Sources */,
+				B745C4DC2D0EFD51005D9E31 /* Bundle+Ext.swift in Sources */,
+				B7EA8D522D29739C0034E9FB /* Realm+Ext.swift in Sources */,
+				B7EA8D502D2970530034E9FB /* ShoppingListItemModel.swift in Sources */,
+				B72BFC662D2AFFDA00F3FDB0 /* Int+Ext.swift in Sources */,
+				B745C4DD2D0EFD51005D9E31 /* String+Ext.swift in Sources */,
+				B7E48B312D1B3DBF006420AA /* QRScanningHandler.swift in Sources */,
+				B745C4C52D0EFD1F005D9E31 /* MyFridgeApp.swift in Sources */,
+				B7EA8D5A2D2984E80034E9FB /* ToolbarButton.swift in Sources */,
+				B7CB6B572D2EB3A300750AE5 /* StatisticsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B745C4B72D0EFCFD005D9E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B745C4B82D0EFCFD005D9E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B745C4BA2D0EFCFD005D9E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyFridge/Common/Preview Content\"";
+				DEVELOPMENT_TEAM = G56U6973ZD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to camera of your device for scanning QR codes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meph.MyFridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B745C4BB2D0EFCFD005D9E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyFridge/Common/Preview Content\"";
+				DEVELOPMENT_TEAM = G56U6973ZD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to camera of your device for scanning QR codes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meph.MyFridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B745C4A62D0EFCF9005D9E31 /* Build configuration list for PBXProject "MyFridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B745C4B72D0EFCFD005D9E31 /* Debug */,
+				B745C4B82D0EFCFD005D9E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B745C4B92D0EFCFD005D9E31 /* Build configuration list for PBXNativeTarget "MyFridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B745C4BA2D0EFCFD005D9E31 /* Debug */,
+				B745C4BB2D0EFCFD005D9E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B745C4F32D0EFE37005D9E31 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		B745C4F82D0EFEA4005D9E31 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B745C4F62D0EFE37005D9E31 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B745C4F32D0EFE37005D9E31 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		B745C4F92D0EFEA4005D9E31 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B745C4F82D0EFEA4005D9E31 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B745C4A32D0EFCF9005D9E31 /* Project object */;
+}
